@@ -58,7 +58,6 @@ def counter_img(path):
     total_images = len(imagePaths)
     for idx, imagePath in enumerate(imagePaths, 1):
         print(f"Processing image {idx}/{total_images}: {os.path.basename(imagePath)}", end="\r")
-        time.sleep(0.02)
 
 def TrainImages():
     training_path = "TrainingImage"

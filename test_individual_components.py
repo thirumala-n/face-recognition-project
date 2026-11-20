@@ -1,4 +1,7 @@
 # test_individual_components.py - Test each component separately
+from dependency_checker import quick_system_test
+from fix_opencv import fix_opencv_installation
+
 def test_face_detection():
     """Test basic face detection"""
     print("🧪 Testing face detection...")

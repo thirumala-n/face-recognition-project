@@ -1,0 +1,35 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets (CRITICAL)
+.env
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / Frontend builds
+node_modules/
+dist/
+dist-ssr/
+
+# OS temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
